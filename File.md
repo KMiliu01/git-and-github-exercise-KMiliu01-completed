@@ -25,3 +25,20 @@ git commit -m "Commit 5 - merge - conflicts solved"
 # Commit 6
 git add .
 git commit -m "Commit 6"
+# Commit 7
+## Getting hash of Commit 4 (eef6) and branching from it.
+git log
+git checkout -b bug-fix-experimental eef6
+git add .
+git commit -m "Commit 7"
+# Commit 8
+git add .
+git commit -m "Commit 8"
+# Commit 9
+git add .
+git commit -m "Commit 9"
+# Commit 11
+git checkout bug-fix
+git merge bug-fix-experimental
+git add .
+git commit -m "Commit 11 - merge - conflicts solved"
