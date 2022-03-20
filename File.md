@@ -9,3 +9,6 @@ git branch bug-fix f4f3
 git checkout bug-fix
 git add .
 git commit -m "Commit 3"
+# Commit 4
+git add .
+git commit -m "Commit 4"
