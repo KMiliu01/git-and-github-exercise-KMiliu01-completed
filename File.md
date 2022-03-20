@@ -42,3 +42,6 @@ git checkout bug-fix
 git merge bug-fix-experimental
 git add .
 git commit -m "Commit 11 - merge - conflicts solved"
+# Commit 12
+git add .
+git commit -m "Commit 12"
