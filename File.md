@@ -18,3 +18,6 @@ git commit -m "Commit 7"
 # Commit 8
 git add .
 git commit -m "Commit 8"
+# Commit 9
+git add .
+git commit -m "Commit 9"
