@@ -8,3 +8,7 @@ git commit -m "Commit 1"
 # Commit 2
 git add .
 git commit -m "Commit 2"
+# Commit 10
+git checkout master
+git add .
+git commit -m "Commit 10"
