@@ -18,3 +18,10 @@ git commit -m "Commit 3"
 # Commit 4
 git add .
 git commit -m "Commit 4"
+# Commit 5
+git merge master
+git add .
+git commit -m "Commit 5 - merge - conflicts solved"
+# Commit 6
+git add .
+git commit -m "Commit 6"
