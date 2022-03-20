@@ -15,3 +15,6 @@ git log
 git checkout -b bug-fix-experimental eef6
 git add .
 git commit -m "Commit 7"
+# Commit 8
+git add .
+git commit -m "Commit 8"
