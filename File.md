@@ -9,3 +9,9 @@ git branch bug-fix f4f3
 git checkout bug-fix
 git add .
 git commit -m "Commit 3"
+# Commit 7
+## Getting hash of Commit 4 (eef6) and branching from it.
+git log
+git checkout -b bug-fix-experimental eef6
+git add .
+git commit -m "Commit 7"
